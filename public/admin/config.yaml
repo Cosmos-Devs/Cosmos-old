@@ -1,0 +1,13 @@
+backend:
+  name: git-gateway
+  branch: main
+local_backend: true
+collections:
+  - name: pages
+    label: Pages
+    folder: src/data/pages
+    slug: "{{slug}}" 
+    create: true
+    fields:
+      - { label: "Titel", name: "title", widget: "string"}
+      - { label: "Slug", name: "slug", widget: "string"}
