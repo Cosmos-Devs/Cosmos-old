@@ -15,3 +15,28 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string"}
       - { label: "Slug", name: "slug", widget: "string"}
+  - name: "navigations"
+    label: "Navigations"
+    files:
+      - file: "src/data/navs/mainmenu.json"
+        label: "Mainmenu"
+        name: "mainmenu"
+        extension: "json"
+        format: "json"
+        editor:
+          preview: false
+        fields:
+          - label: "Item"
+            name: "items"
+            widget: "list"
+            min: 1
+            summary: '{{fields.page}}'
+            fields:
+              - { label: "Title", name: "title", widget: "string"}
+              - label: "Page"
+                name: "slug"
+                widget: "relation"
+                collection: "page"
+                search_fields: ["title"]
+                value_field: "slug"
+                display_fields: ["title"]
