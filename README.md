@@ -1,7 +1,7 @@
 # Astro Starter Kit: Minimal
 
 ```
-npm init astro -- --template minimal
+yarn init astro -- --template minimal
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/snowpackjs/astro/tree/latest/examples/minimal)
@@ -33,9 +33,9 @@ All commands are run from the root of the project, from a terminal:
 
 | Command         | Action                                      |
 |:----------------|:--------------------------------------------|
-| `npm install`   | Installs dependencies                       |
-| `npm run dev`   | Starts local dev server at `localhost:3000` |
-| `npm run build` | Build your production site to `./dist/`     |
+| `yarn install`   | Installs dependencies                       |
+| `yarn run dev`   | Starts local dev server at `localhost:3000` |
+| `yarn run build` | Build your production site to `./dist/`     |
 
 ## 👀 Want to learn more?
 
