@@ -6,9 +6,11 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "vercel --prod"
   },
   "devDependencies": {
-    "astro": "^0.20.12"
+    "astro": "^0.20.12",
+    "vercel": "^23.1.2"
   }
 }
