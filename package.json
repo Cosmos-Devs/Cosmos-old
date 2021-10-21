@@ -1,6 +1,10 @@
 {
-  "name": "@example/minimal",
+  "name": "cosmos",
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/V1RE/Cosmos"
+  },
   "private": true,
   "scripts": {
     "dev": "astro dev",
