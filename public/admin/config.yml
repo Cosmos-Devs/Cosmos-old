@@ -1,17 +1,17 @@
 backend:
   name: github
-  repo: V1RE/Cosmos 
+  repo: V1RE/Cosmos
   base_url: https://netlify-cms-oauth-bay.vercel.app/
   branch: main
 local_backend: true
-media_folder: "public/uploads"
-public_folder: "/uploads"
+media_folder: 'public/uploads'
+public_folder: '/uploads'
 collections:
   - name: pages
     label: Pages
     folder: src/data/pages
-    slug: "{{slug}}" 
+    slug: '{{slug}}'
     create: true
     fields:
-      - { label: "Titel", name: "title", widget: "string"}
-      - { label: "Slug", name: "slug", widget: "string"}
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }

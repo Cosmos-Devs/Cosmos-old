@@ -1,4 +1,4 @@
 ---
-title: "Test"
-slug: "test"
+title: 'Test'
+slug: 'test'
 ---
