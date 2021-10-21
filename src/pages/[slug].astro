@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Page.astro"
+
+export async function getStaticPaths() {
+    const allPages = Astro
+        .fetchContent('../data/pages/*md')
+
+    return allPages.map(page => {
+        return {
+            params: {slug: page.slug },
+            props: { page }
+        }
+    })
+}
+
+const { page } = Astro.props
+---
+
+<Layout content={page} />
