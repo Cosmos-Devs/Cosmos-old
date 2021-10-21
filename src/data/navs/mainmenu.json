@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "title": "About",
+      "slug": "about"
+    },
+    {
+      "title": "Test",
+      "slug": "test"
+    }
+  ]
+}

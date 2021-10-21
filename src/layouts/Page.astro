@@ -1,4 +1,5 @@
 ---
+import Header from '../components/header.svelte';
 const { content } = Astro.props;
 const { title } = content;
 ---
@@ -8,11 +9,15 @@ const { title } = content;
     <meta charset="utf-8" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href={Astro.resolve('../styles/main.css')} />
     <title>{title} - AstroCMS</title>
   </head>
 
   <body>
-    <h1>{title || '-'}</h1>
-    <a href="/">home</a>
+    <Header />
+    <main>
+      <h1>{title || '-'}</h1>
+      <a href="/">home</a>
+    </main>
   </body>
 </html>
