@@ -1,18 +1,18 @@
 ---
 	import Header from '../components/header.svelte'
 ---
+
+
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href={Astro.resolve('../styles/main.css')} />
+    <title>Welcome to Astro</title>
+  </head>
 
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	<meta name="viewport" content="width=device-width" />
-  <link rel="stylesheet" type="text/css" href={Astro.resolve("../styles/main.css")}>
-	<title>Welcome to Astro</title>
-</head>
-
-<body>
-	<Header />
-</body>
-
+	<body>
+		<Header />
+	</body>
 </html>
