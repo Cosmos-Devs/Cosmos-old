@@ -6,12 +6,12 @@
   }));
 </script>
 
-<header class="flex flex-row">
+<header class="flex flex-row justify-between">
   <h2>Cosmos</h2>
   <nav>
-    <ul>
+    <ul class="flex flex-row">
       {#each items as { url, title }}
-        <li>
+        <li class="mr-3">
           <a href={url}>{title}</a>
         </li>
       {/each}
