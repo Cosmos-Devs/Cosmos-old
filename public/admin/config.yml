@@ -1,7 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: V1RE/Cosmos 
+  base_url: https://netlify-cms-oauth-bay.vercel.app/
   branch: main
 local_backend: true
+media_folder: "public/uploads"
+public_folder: "/uploads"
 collections:
   - name: pages
     label: Pages
