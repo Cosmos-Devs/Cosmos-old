@@ -9,6 +9,6 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.0.0-compiler-202191918936"
+    "astro": "^0.20.12"
   }
 }
