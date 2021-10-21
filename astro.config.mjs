@@ -9,7 +9,8 @@
 // @ts-check
 export default /** @type {import('astro').AstroUserConfig} */ ({
   // Comment out "renderers: []" to enable Astro's default component support.
-  renderers: [
-    '@astrojs/renderer-svelte'
-  ],
+  renderers: ["@astrojs/renderer-svelte"],
+  devOptions: {
+    tailwindConfig: "./tailwind.config.js",
+  },
 });
