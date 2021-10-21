@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "astro": "^0.20.12"
+  },
+  "dependencies": {
+    "@astrojs/renderer-svelte": "^0.1.2",
+    "netlify-cms-app": "^2.15.54"
   }
 }
