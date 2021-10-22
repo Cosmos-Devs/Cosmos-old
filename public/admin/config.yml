@@ -7,14 +7,8 @@ local_backend: true
 media_folder: 'public/uploads'
 public_folder: '/uploads'
 collections:
-  - name: pages
-    label: Pages
-    folder: src/data/pages
-    slug: '{{slug}}'
-    create: true
-    fields:
-      - { label: 'Titel', name: 'title', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string' }
+
+  # Navigation settings
   - name: 'navigations'
     label: 'Navigations'
     files:
@@ -27,16 +21,38 @@ collections:
           preview: false
         fields:
           - label: 'Menu items'
+            label_singular: 'Menu item'
             name: 'items'
             widget: 'list'
             min: 1
-            summary: '{{fields.title}}'
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string' }
-              - label: 'Page'
-                name: 'slug'
-                widget: 'relation'
-                collection: 'pages'
-                search_fields: ['title']
-                value_field: 'slug'
-                display_fields: ['title']
+            types: 
+              - label: "Page"
+                name: "page"
+                widget: "object"
+                summary: '{{fields.title}}'
+                fields:
+                  - { label: "Title", name: "title", widget: "string"}
+                  - label: "Page"
+                    name: "slug"
+                    widget: "relation"
+                    collection: "pages"
+                    search_fields: ["title"]
+                    value_field: "slug"
+                    display_fields: ["title"]
+              - label: "URL"
+                name: "url"
+                widget: "object"
+                summary: '{{fields.title}}'
+                fields:
+                  - { label: "Title", name: "title", widget: "string"}
+                  - { label: "URL", name: "url", widget: "string", pattern: ['/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)/', "Please add an valid URL"] }
+                  - { label: "New tab", name: "new_tab", widget: "boolean", default: false, required: false, hint: "When set true, url will be opened in a new tab." }
+  # Page settings
+  - name: pages
+    label: Pages
+    folder: src/data/pages
+    slug: '{{slug}}'
+    create: true
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
