@@ -1,12 +1,20 @@
 {
   "items": [
     {
-      "title": "About",
-      "slug": "about"
+      "type": "page",
+      "slug": "about",
+      "title": "About"
     },
     {
-      "title": "Hello World",
-      "slug": "helloworld"
+      "type": "page",
+      "slug": "helloworld",
+      "title": "Hello World"
+    },
+    {
+      "type": "url",
+      "title": "Nu.nl",
+      "url": "https://www.nu.nl/",
+      "new_tab": true
     }
   ]
 }
