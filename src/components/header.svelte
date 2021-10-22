@@ -1,6 +1,5 @@
 <script>
   import { items } from '../functions/navigation.ts';
-  console.log('nav', items);
 </script>
 
 <header class="flex flex-row justify-between">
