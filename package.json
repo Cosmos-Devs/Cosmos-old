@@ -22,7 +22,6 @@
     "@astrojs/renderer-svelte": "^0.1.2",
     "astro": "^0.20.12",
     "netlify-cms-app": "^2.15.54",
-    "tailwindcss": "^2.2.17",
-    "vercel": "^23.1.2"
+    "tailwindcss": "^2.2.17"
   }
 }
