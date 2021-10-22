@@ -15,6 +15,11 @@
       "title": "Nu.nl",
       "url": "https://www.nu.nl/",
       "new_tab": true
+    },
+    {
+      "type": "page"
+      "title": "Kris",
+      "slug": "sexykris"
     }
   ]
 }
