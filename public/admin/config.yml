@@ -36,7 +36,7 @@ collections:
               - label: 'Page'
                 name: 'slug'
                 widget: 'relation'
-                collection: 'page'
+                collection: 'pages'
                 search_fields: ['title']
                 value_field: 'slug'
                 display_fields: ['title']
