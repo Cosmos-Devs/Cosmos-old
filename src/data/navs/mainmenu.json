@@ -9,17 +9,6 @@
       "type": "page",
       "slug": "helloworld",
       "title": "Hello World"
-    },
-    {
-      "type": "url",
-      "title": "Nu.nl",
-      "url": "https://www.nu.nl/",
-      "new_tab": true
-    },
-    {
-      "type": "page",
-      "title": "Kris",
-      "slug": "sexykris"
     }
   ]
 }

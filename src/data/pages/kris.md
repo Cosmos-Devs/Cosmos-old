@@ -1,4 +1,0 @@
----
-title: Kris
-slug: sexykris
----
