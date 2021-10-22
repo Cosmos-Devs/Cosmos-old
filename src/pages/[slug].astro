@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Page.astro';
+import Header from '../components/header.svelte';
 
 export async function getStaticPaths() {
   const allPages = Astro.fetchContent('../data/pages/*md');
@@ -15,4 +16,19 @@ export async function getStaticPaths() {
 const { page } = Astro.props;
 ---
 
-<Layout content={page} />
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href={Astro.resolve('../styles/main.css')} />
+    <title>{page.title} - Cosmos</title>
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <Layout content={page} />
+    </main>
+  </body>
+</html>
