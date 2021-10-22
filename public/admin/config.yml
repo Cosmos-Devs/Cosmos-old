@@ -26,11 +26,11 @@ collections:
         editor:
           preview: false
         fields:
-          - label: 'Item'
+          - label: 'Menu items'
             name: 'items'
             widget: 'list'
             min: 1
-            summary: '{{fields.page}}'
+            summary: '{{fields.title}}'
             fields:
               - { label: 'Title', name: 'title', widget: 'string' }
               - label: 'Page'
