@@ -16,6 +16,6 @@ const init = () => {
   );
 
   const links = document.querySelectorAll('[rel="stylesheet"]');
-  links.forEach(({href}) => CMS.registerPreviewStyle(href));
+  links.forEach(({ href }) => CMS.registerPreviewStyle(href));
 };
 export default init();
