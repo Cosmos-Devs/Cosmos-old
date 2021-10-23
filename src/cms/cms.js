@@ -5,7 +5,7 @@ import Page from '../templates/page.svelte';
 const Init = () => {
     CMS.init();
    
-
+    // init previews
     initPreviews(
       [
         {
