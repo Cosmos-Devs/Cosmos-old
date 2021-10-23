@@ -1,42 +1,21 @@
-# Astro Starter Kit: Minimal
+# Cosmos 🌌
 
-```
-yarn init astro -- --template minimal
-```
+Combining the simplicity of netlify CMS and the blazing speed Astro
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/snowpackjs/astro/tree/latest/examples/minimal)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c9f8f08-0d6b-44a4-89fb-d8e2279853f8/deploy-status)](https://app.netlify.com/sites/cosmos-cms/deploys)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Usage 🛰️
 
-## 🚀 Project Structure
+1. Start by installing the required dependencies.
 
-Inside of your Astro project, you'll see the following folders and files:
+   ```zsh
+   yarn install
+   ```
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+2. Now, you can start the development server.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+   ```zsh
+   yarn dev
+   ```
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command          | Action                                      |
-| :--------------- | :------------------------------------------ |
-| `yarn install`   | Installs dependencies                       |
-| `yarn run dev`   | Starts local dev server at `localhost:3000` |
-| `yarn run build` | Build your production site to `./dist/`     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
+3. Enjoy your flight! 🚀
