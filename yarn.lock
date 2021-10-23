@@ -5638,11 +5638,6 @@ netlify-cms-widget-text@^2.4.1:
   dependencies:
     react-textarea-autosize "^8.0.0"
 
-netlify-identity-widget@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/netlify-identity-widget/-/netlify-identity-widget-1.9.2.tgz#4339c9155fc4c2570ae3ddd61825d952b574b02e"
-  integrity sha512-IbS1JHhs7BflCCvp3C9f6tmNSZqbyBhZ4Gs5+Qxt4IlPybTOVv0PqJ4TAsA7uxh1R+oXOAmk0OOMAkEaPYeCtA==
-
 nlcst-to-string@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/nlcst-to-string/-/nlcst-to-string-2.0.4.tgz#9315dfab80882bbfd86ddf1b706f53622dc400cc"
@@ -8072,6 +8067,11 @@ supports-esm@^1.0.0:
   integrity sha512-96Am8CDqUaC0I2+C/swJ0yEvM8ZnGn4unoers/LSdE4umhX7mELzqyLzx3HnZAluq5PXIsGMKqa7NkqaeHMPcg==
   dependencies:
     has-package-exports "^1.1.0"
+
+svelte-adapter@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/svelte-adapter/-/svelte-adapter-0.5.0.tgz#3a0db863e0ec0fc53b7fe8b80df22da63722b853"
+  integrity sha512-4RDhWyo4MmTQJS0KFrdXy4fw50GAXh0U0B1KEBHa0A4dgFTLXmjlfpDg2gW3e2a3Pg9NwTOh/wP+X0PdvXwr9Q==
 
 svelte-hmr@^0.13.2:
   version "0.13.5"

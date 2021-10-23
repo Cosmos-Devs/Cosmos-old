@@ -23,7 +23,7 @@
     "@astrojs/renderer-svelte": "^0.1.2",
     "astro": "^0.20.12",
     "netlify-cms-app": "^2.15.54",
-    "netlify-identity-widget": "^1.9.2",
+    "svelte-adapter": "^0.5.0",
     "tailwindcss": "^2.2.17"
   }
 }
