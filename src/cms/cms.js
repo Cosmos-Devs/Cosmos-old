@@ -2,10 +2,9 @@ import CMS from 'netlify-cms-app';
 import initPreviews from './previews';
 import Page from '../templates/page.svelte';
 
-const Init = () => {
+const init = () => {
   CMS.init();
 
-  // init previews
   initPreviews(
     [
       {
@@ -16,8 +15,7 @@ const Init = () => {
     CMS
   );
 
-  // init styles
   const links = document.querySelectorAll('[rel="stylesheet"]');
-  links.forEach((link) => CMS.registerPreviewStyle(link.href));
+  links.forEach(({href}) => CMS.registerPreviewStyle(href));
 };
-export default Init();
+export default init();

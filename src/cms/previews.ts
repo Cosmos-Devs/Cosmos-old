@@ -14,5 +14,7 @@ const initPreviews = (items: PreviewInterface[], CMS) =>
       const content = prvObj?.entry?.getIn(['data'])?.toJS();
       return ReactElement({ content });
     });
+
   });
+  
 export default initPreviews;
