@@ -11,7 +11,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "format": "yarn prettier . -w",
+    "format": "prettier . -w",
+    "lint": "prettier . -c",
     "prepare": "husky install"
   },
   "devDependencies": {
