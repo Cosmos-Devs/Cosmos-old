@@ -11,6 +11,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "check": "astro check",
     "format": "prettier . -w",
     "lint": "prettier . -c",
     "prepare": "husky install"
