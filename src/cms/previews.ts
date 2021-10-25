@@ -6,7 +6,7 @@ interface PreviewInterface {
   component: new (arg: any) => SvelteComponent;
 }
 
-const initPreviews = (items: PreviewInterface[], CMS) =>
+export default function (items: PreviewInterface[], CMS) {
   items.forEach(({ name, component }) => {
     const ReactElement = toReact(component, {}, 'div');
 
@@ -15,5 +15,4 @@ const initPreviews = (items: PreviewInterface[], CMS) =>
       return ReactElement({ content });
     });
   });
-
-export default initPreviews;
+}
