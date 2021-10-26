@@ -1,5 +1,5 @@
 <script>
-  import Banner from '../components/banner.svelte';
+  import Banner from '$components/banner.svelte';
   export let content = {};
 
   $: banner = content?.banner;
