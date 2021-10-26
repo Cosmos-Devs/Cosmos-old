@@ -42,4 +42,3 @@ jobs:
           urls: |
             ${{ steps.netlify.outputs.url }}
           uploadArtifacts: true
-
