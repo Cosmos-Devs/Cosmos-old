@@ -5,7 +5,7 @@
 module.exports = {
   alias: {
     $: './src',
-    '$components': './src/components',
+    $components: './src/components',
   },
   mount: {
     /* ... */
