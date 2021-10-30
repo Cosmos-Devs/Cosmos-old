@@ -1,5 +1,5 @@
 <script>
-  import { items } from '../lib/navigation.ts';
+  import { items } from '$/lib/navigation.ts';
 </script>
 
 <header class="flex flex-row justify-between">
