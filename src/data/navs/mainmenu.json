@@ -9,6 +9,11 @@
       "type": "page",
       "slug": "helloworld",
       "title": "Hello World"
+    },
+    {
+      "type": "page",
+      "title": "Myrin",
+      "slug": "demo"
     }
   ]
 }

@@ -1,6 +1,6 @@
 <script>
-  import Banner from '../components/banner.svelte';
-  import Builder from '../components/builder.svelte';
+  import Banner from '$components/banner.svelte';
+  import Builder from '$components/builder.svelte';
   export let content = {};
 
   $: banner = content?.banner;

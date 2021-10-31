@@ -1,4 +1,4 @@
-import json from '../data/navs/mainmenu.json';
+import json from '$/data/navs/mainmenu.json';
 
 const createUrl = (slug) => (slug === 'index' ? '/' : `/${slug}/`);
 

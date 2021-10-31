@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "husky": ">=6",
-    "lint-staged": ">=10",
-    "marked": "^3.0.7",
+    "lint-staged": ">=11.2.6",
+    "marked": "^3.0.8",
     "prettier": "^2.4.1",
     "prettier-plugin-astro": "^0.0.9"
   },
@@ -27,10 +27,10 @@
     "@astrojs/renderer-svelte": "^0.1.2",
     "astro": "^0.20.12",
     "immutable": "^4.0.0",
-    "netlify-cms-app": "^2.15.54",
-    "svelte-adapter": "^0.5.0",
     "svelte-react": "^1.0.0",
-    "tailwindcss": "^2.2.17"
+    "netlify-cms-app": "^2.15.57",
+    "svelte-adapter": "^0.5.0",
+    "tailwindcss": "^2.2.19"
   },
   "lint-staged": {
     "*.-w": "prettier --write"
