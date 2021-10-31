@@ -1,6 +1,6 @@
 import toReact from 'svelte-adapter/react';
 import blocks from "../cms/blocks";
-import Wrapper from "./cmsWrapper.svelte"
+import Wrapper from "./blockWrapper.svelte"
 import { SvelteComponent } from 'svelte';
 
 
@@ -11,9 +11,11 @@ export default function (CMS) {
 
         CMS.registerWidget(
             name,
-            (editor) => {
-                return ReactElement({ CMS, editor, component: control })
-            }
+            (editor) => ReactElement({ 
+                CMS,
+                editor,
+                component: control,
+             })
         );
     })
 }
