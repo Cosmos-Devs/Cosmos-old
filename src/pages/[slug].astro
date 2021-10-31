@@ -1,9 +1,9 @@
 ---
-import Layout from '../templates/page.svelte';
-import Header from '../components/header.svelte';
+import Layout from '$/templates/page.svelte';
+import Header from '$components/header.svelte';
 
 export async function getStaticPaths() {
-  const allPages = Astro.fetchContent('../data/pages/*md');
+  const allPages = Astro.fetchContent('$/data/pages/*.md');
 
   return allPages.map((page) => {
     return {
