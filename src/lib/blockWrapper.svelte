@@ -10,7 +10,7 @@
   setContext('CMS', CMS);
   setContext('editor', editor);
 
-  const value = writable(editor?.value?.toJS() || '');
+  const value = writable(editor?.value?.toJS() || {});
 
   value.subscribe((value) => {
     const data = fromJS(value);

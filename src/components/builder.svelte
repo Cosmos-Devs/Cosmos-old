@@ -4,8 +4,7 @@
 
   $: entries = content
     .map((entry) => {
-      const name = Object.keys(entry);
-
+      const name = entry.type;
       if (!blocks[name]) return null;
 
       return {
