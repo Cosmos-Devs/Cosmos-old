@@ -12,11 +12,9 @@
         props: entry[name],
       };
     })
-    .filter((e) => e);
+    .filter((e) => e?.view);
 </script>
 
 {#each entries as { view, props }}
-  {#if view}
-    <svelte:component this={view} {...props} />
-  {/if}
+  <svelte:component this={view} {...props} />
 {/each}
