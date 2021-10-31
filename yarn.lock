@@ -3646,6 +3646,11 @@ immutable@^3.7.6:
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
   integrity sha1-wkOZUUVbs5kT2vKBN28VMOEErfM=
 
+immutable@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.0.0.tgz#b86f78de6adef3608395efb269a91462797e2c23"
+  integrity sha512-zIE9hX70qew5qTUjSS7wi1iwj/l7+m54KWU247nhM3v806UdGj1yDndXj+IOYxxtW9zyLI+xqFNZjTuDaLUqFw==
+
 import-cwd@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/import-cwd/-/import-cwd-3.0.0.tgz#20845547718015126ea9b3676b7592fb8bd4cf92"
@@ -8267,6 +8272,11 @@ svelte-preprocess@^4.7.2:
     magic-string "^0.25.7"
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
+
+svelte-react@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/svelte-react/-/svelte-react-1.0.0.tgz#ae96dc710cd74601f0a8b46b8c38718c9ec871fd"
+  integrity sha512-Lc60NGNK91jj9eAnTVOH14QQXt1aCzU8b1kT0H5bflDLFlavj56ba4rZeHe7kkNwNs/mRDI02ZdhJuab2aq9+g==
 
 svelte@^3.35.0:
   version "3.44.0"
