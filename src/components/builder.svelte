@@ -1,5 +1,5 @@
 <script>
-  import blocks from '../cms/blocks';
+  import blocks from '$/cms/blocks';
   export let content = [];
 
   $: entries = content

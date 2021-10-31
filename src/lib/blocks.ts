@@ -1,7 +1,6 @@
 import toReact from 'svelte-adapter/react';
-import blocks from '../cms/blocks';
+import blocks from '$/cms/blocks';
 import Wrapper from './blockWrapper.svelte';
-import { SvelteComponent } from 'svelte';
 
 export default function (CMS) {
   Object.keys(blocks).forEach((name) => {

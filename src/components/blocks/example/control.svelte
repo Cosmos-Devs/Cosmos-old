@@ -1,5 +1,5 @@
 <script>
-  import Widget from '../../../cms/widget.svelte';
+  import Widget from '$/cms/widget.svelte';
   export let value;
 
   const onChange = (val, name) => ($value[name] = val);
