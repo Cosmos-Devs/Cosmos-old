@@ -9,4 +9,9 @@ banner:
     varius. Ut non rutrum sapien. Etiam vehicula leo vel nisl sodales, quis
     imperdiet nisl luctus."
   image: /uploads/guillermo-ferla-llexhyl-cxq-unsplash.jpg
+builder:
+  - test:
+      block: banner
+      title: test
+      content: Gaat dit
 ---
