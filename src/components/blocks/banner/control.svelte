@@ -1,22 +1,15 @@
 <script>
   import Widget from '../../../cms/widget.svelte';
-  import { Map } from 'immutable';
-  export let editor;
-  const values = editor?.value?.toJS() || {};
-  const store = { ...values };
+  export let value;
 
-  const onChange = (val, name) => {
-    console.log(name, val);
-    store[name] = val;
-    editor.onChange(new Map(store));
-  };
+  const onChange = (val, name) => ($value[name] = val);
 </script>
 
-{#if editor}
+{#if value}
   <div>
     <h4>Banner block</h4>
-    <Widget type="string" name="title" {onChange} value={store.title} />
-    <Widget type="markdown" name="content" {onChange} value={store.content} />
-    <Widget type="image" name="image" {onChange} value={store.image} />
+    <Widget type="string" name="title" value={$value.title} {onChange} />
+    <Widget type="markdown" name="content" value={$value.content} {onChange} />
+    <Widget type="image" name="image" value={$value.image} {onChange} />
   </div>
 {/if}
