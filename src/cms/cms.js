@@ -6,7 +6,7 @@ import Page from '../templates/page.svelte';
 export default function (styling) {
   CMS.init();
 
-  initBlocks(CMS)
+  initBlocks(CMS);
 
   initPreviews(
     [

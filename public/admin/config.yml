@@ -81,4 +81,3 @@ collections:
             name: 'blockquote'
             summary: '{{fields.blockquote.content}}'
             field: { name: 'blockquote', widget: 'blockquote' }
-
