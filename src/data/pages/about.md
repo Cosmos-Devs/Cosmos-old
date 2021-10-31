@@ -9,4 +9,8 @@ banner:
     varius. Ut non rutrum sapien. Etiam vehicula leo vel nisl sodales, quis
     imperdiet nisl luctus."
   image: /uploads/guillermo-ferla-llexhyl-cxq-unsplash.jpg
+builder:
+  - type: blockquote
+    blockquote:
+      content: Dit is een block G
 ---

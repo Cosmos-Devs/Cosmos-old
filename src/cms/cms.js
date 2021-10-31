@@ -1,9 +1,12 @@
 import CMS from 'netlify-cms-app';
-import initPreviews from './previews';
+import initPreviews from '$/lib/previews';
+import initBlocks from '$/lib/blocks';
 import Page from '$/templates/page.svelte';
 
 export default function (styling) {
   CMS.init();
+
+  initBlocks(CMS);
 
   initPreviews(
     [

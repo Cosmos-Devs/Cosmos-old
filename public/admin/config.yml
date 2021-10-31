@@ -76,3 +76,15 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
           - { label: 'Image', name: 'image', widget: 'image' }
+      - label: 'Builder'
+        name: 'builder'
+        widget: 'list'
+        types:
+          - label: 'Example'
+            name: 'example'
+            summary: '{{fields.example.title}}'
+            field: { name: 'example', widget: 'example' }
+          - label: 'Blockquote'
+            name: 'blockquote'
+            summary: '{{fields.blockquote.content}}'
+            field: { name: 'blockquote', widget: 'blockquote' }

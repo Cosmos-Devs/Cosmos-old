@@ -10,4 +10,12 @@ banner:
 
     Nog een test
   image: /uploads/guillermo-ferla-llexhyl-cxq-unsplash.jpg
+builder:
+  - type: blockquote
+    blockquote:
+      content: This is a blockquote!
+  - type: example
+    example:
+      title: Example block
+      content: This is an example block!
 ---
