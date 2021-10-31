@@ -71,8 +71,14 @@ collections:
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - label: 'Builder'
         name: 'builder'
-        summary: '{{fields.test.title}}'
         widget: 'list'
-        fields:
-          - { label: 'Test', name: 'test', widget: 'test' }
+        types:
+          - label: 'Example'
+            name: 'example'
+            summary: '{{fields.example.title}}'
+            field: { name: 'example', widget: 'example' }
+          - label: 'Blockquote'
+            name: 'blockquote'
+            summary: '{{fields.blockquote.content}}'
+            field: { name: 'blockquote', widget: 'blockquote' }
 
