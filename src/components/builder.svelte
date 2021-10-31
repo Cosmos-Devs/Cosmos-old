@@ -5,7 +5,6 @@
   $: entries = content
     .map((entry) => {
       const name = Object.keys(entry);
-      console.log('entry', entry);
 
       if (!blocks[name]) return null;
 
